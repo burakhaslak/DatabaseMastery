@@ -37,7 +37,7 @@ The project is designed using a Folder-Based Monolithic Architecture, applying S
 
 - **Advanced Shipment Tracking:** A sophisticated timeline interface for monitoring cargo status across five stages: Received, Sorting, In Transit, Delivery, and Delivered.
 
-- **Interactive Cost Calculator:** A dynamic tool that calculates estimated shipping fees based on weight, dimensions, and commodity types in Euro (€).
+- **Interactive Cost Calculator:** A dynamic tool that calculates estimated shipping fees based on weight, dimensions, and commodity types in TL (₺).
 
 - **Dynamic Content Management:** Fully customizable sections for Sliders, Customer Testimonials, FAQ, and Brand Partners.
 
