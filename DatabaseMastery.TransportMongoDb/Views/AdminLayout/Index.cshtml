@@ -1,0 +1,31 @@
+﻿@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    @await Component.InvokeAsync("_AdminLayoutHeadComponentPartial")
+
+<body data-menu-color="light" data-sidebar="default">
+
+        <div id="app-layout">
+        @await Component.InvokeAsync("_AdminLayoutTopBarComponentPartial")
+    
+        @await Component.InvokeAsync("_AdminLayoutSidebarComponentPartial")
+
+        <div class="content-page">
+            <div class="content">
+
+                <!-- Start Content-->
+                <div class="container-fluid">
+
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+        </div>
+    @await Component.InvokeAsync("_AdminLayoutScriptsComponentPartial")
+    @await RenderSectionAsync("Scripts", required:false)
+    </body>
+</html>
